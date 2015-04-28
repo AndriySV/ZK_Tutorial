@@ -1,4 +1,4 @@
-package com.as.controller;
+package com.as.controller.mvc;
 
 import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.Executions;
