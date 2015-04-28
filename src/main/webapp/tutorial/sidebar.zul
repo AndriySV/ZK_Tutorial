@@ -1,0 +1,11 @@
+<grid hflex="1" vflex="1" sclass="sidebar"
+	id="fnList"
+	apply="com.as.controller.SidebarController">
+	<columns>
+		<column width="36px" />
+		<column />
+	</columns>
+	
+	<rows />
+
+</grid>
