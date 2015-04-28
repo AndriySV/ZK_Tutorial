@@ -6,7 +6,7 @@
 	version="3.0">
 
 	<description><![CDATA[My ZK Application]]></description>
-	<display-name>ZK_MVC</display-name>
+	<display-name>ZK_Tutorial</display-name>
 
 	<!-- [Optional]
 	Uncomment if you want to use the ZK filter to post process the HTML output

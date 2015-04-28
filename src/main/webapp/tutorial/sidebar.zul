@@ -1,6 +1,6 @@
 <grid hflex="1" vflex="1" sclass="sidebar"
 	id="fnList"
-	apply="com.as.controller.SidebarController">
+	apply="com.as.controller.mvc.SidebarController">
 	<columns>
 		<column width="36px" />
 		<column />

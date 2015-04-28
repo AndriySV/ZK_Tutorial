@@ -1,6 +1,6 @@
 <?link rel="stylesheet" type="text/css" href="/style.css"?>
 
-<window apply="com.as.controller.ProfileViewController" border="normal"
+<window apply="com.as.controller.mvc.ProfileViewController" border="normal"
 	hflex="1" vflex="1" contentStyle="overflow:auto">
 
 	<caption src="/imgs/profile.png" sclass="fn-caption"
