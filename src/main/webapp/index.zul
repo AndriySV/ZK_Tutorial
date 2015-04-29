@@ -1,26 +1,10 @@
 <?link rel="stylesheet" type="text/css" href="/style.css"?>
 
+<?init class="org.zkoss.zk.ui.util.Composition" arg0="/tutorial/template.zul"?>
+
 <zk>
-	<borderlayout hflex="1" vflex="1">
-		<north height="100px" border="none">
-			<include src="/tutorial/banner.zul" />
-		</north>
 
-		<west width="260px" border="none" collapsible="true"
-			splittable="true" minsize="300">
-			<include src="/tutorial/sidebar.zul" />
-		</west>
-
-		<center id="mainContent" autoscroll="true">
-			
-			<!-- <include src="/tutorial/profile-mvc.zul" /> -->
-			
-			<include src="/tutorial/profile-mvvm-property.zul" />
-			
-		</center>
-
-		<south height="50px" border="none">
-			<include src="/tutorial/footer.zul" />
-		</south>
-	</borderlayout>
+	<include id="mainInclude" self="@define(content)" apply="org.zkoss.bind.BindComposer" 
+		viewModel="@id('vm') @init('com.as.services.NavigationViewModel')" 
+		src="@load(vm.includeSrc)" />
 </zk>
