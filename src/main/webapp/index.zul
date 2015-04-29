@@ -12,7 +12,11 @@
 		</west>
 
 		<center id="mainContent" autoscroll="true">
-			<include src="/tutorial/profile-mvc.zul" />
+			
+			<!-- <include src="/tutorial/profile-mvc.zul" /> -->
+			
+			<include src="/tutorial/profile-mvvm-property.zul" />
+			
 		</center>
 
 		<south height="50px" border="none">
