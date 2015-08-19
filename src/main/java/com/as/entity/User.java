@@ -13,6 +13,8 @@ import java.util.Date;
 /**
  * User entity
  */
+ 
+// Test
 public class User implements Serializable,Cloneable {
 	private static final long serialVersionUID = 1L;
 	String account;
